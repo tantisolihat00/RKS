@@ -1,0 +1,825 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Shopee</title>
+
+		<!-- Bootstrap CDN -->
+		<link
+			rel="stylesheet"
+			href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+			integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+			crossorigin="anonymous"
+		/>
+
+		<!-- OwlCarouse -->
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+			integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+			crossorigin="anonymous"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+			integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+			crossorigin="anonymous"
+		/>
+
+		<!-- FontAwesome -->
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+			integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+			crossorigin="anonymous"
+		/>
+
+		<!-- Custom CSS file -->
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<!-- Start #header -->
+		<header id="header">
+			<div class="strip d-flex justify-content-between px-4 py-1 bg-light">
+				<p class="font-rale font-size-12 text-black-50 m-0">
+				</p>
+				<div class="font-rale font-size-14">
+					<a href="#" class="px-3 border-right border-left text-dark">Login</a>
+					<a href="#" class="px-3 border-right text-dark">Whishlist (0)</a>
+				</div>
+			</div>
+
+			<!-- Primary Navigation -->
+			<nav class="navbar navbar-expand-lg navbar-dark color-second-bg">
+				<div class="container-fluid">
+					<a class="navbar-brand" href="#">Shopee</a>
+					<button
+						class="navbar-toggler"
+						type="button"
+						data-bs-toggle="collapse"
+						data-bs-target="#navbarNav"
+						aria-controls="navbarNav"
+						aria-expanded="false"
+						aria-label="Toggle navigation"
+					>
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<div class="collapse navbar-collapse" id="navbarNav">
+						<ul class="navbar-nav m-auto font-rubik">
+							<li class="nav-item active">
+								<a class="nav-link active" href="#">On Sale</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">Category</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="_products.php"
+									>Products <i class="fas fa-chevron-down"></i
+								></a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">Blog</a>
+							</li>
+						</ul>
+						<form action="#" class="font-size-14 font-rale">
+							<a href="#" class="py-2 rounded-pill color-primary-bg">
+								<span class="font-size-16 px-2 text-white"
+									><i class="fas fa-shopping-cart"></i
+								></span>
+								<span class="px-3 py-2 rounded-pill text-dark bg-light">O</span>
+							</a>
+						</form>
+					</div>
+				</div>
+			</nav>
+		</header>
+
+		<!-- Start #header -->
+
+		<!-- Start #main -->
+		<main id="main-site">
+			<!-- Owl-carousel -->
+			<div class="section" id="banner-area">
+				<div class="owl-carousel owl-theme">
+					<div class="item">
+						<img src="./assets//bg.jpg" alt="banner1" />
+					</div>
+					<div class="item">
+						<img src="images/Banner3.png" alt="banner3" />
+					</div>
+					<div class="item">
+						<img src="images/Banner4.jpg" alt="banner4" />
+					</div>
+				</div>
+			</div>
+			<!-- Owl-carousel -->
+
+			<!-- Top Sale -->
+			<section id="top-sale">
+				<div class="container py-5">
+					<h4 class="font-rubik font-size-20">Top Sale</h4>
+					<hr />
+					<!-- owl carousel -->
+					<div class="owl-carousel owl-theme">
+						<div class="item py-2">
+							<div class="product font-rale">
+								<a href="#"
+									><img
+										src="images/1.png"
+										alt="product1"
+										class="img-fluid"
+								/></a>
+								<div class="text-center">
+									<h6>Chanel Blouse white</h6>
+									<div class="rating text-warning font-size-12">
+										<span><i class="fas fa-star"></i></span>
+										<span><i class="fas fa-star"></i></span>
+										<span><i class="fas fa-star"></i></span>
+										<span><i class="fas fa-star"></i></span>
+										<span><i class="far fa-star"></i></span>
+									</div>
+									<div class="price py-2">
+										<span>Rp 13.000.000,00</span>
+									</div>
+									<button type="submit" class="btn btn-warning font-size-12">
+										Add to Cart
+									</button>
+								</div>
+							</div>
+						</div>
+						<div class="item py-2">
+							<div class="product font-rale">
+								<a href="#"
+									><img
+										src="images/2.png"
+										alt="product1"
+										class="img-fluid"
+								/></a>
+								<div class="text-center">
+									<h6>Watch Chanel Red</h6>
+									<div class="rating text-warning font-size-12">
+										<span><i class="fas fa-star"></i></span>
+										<span><i class="fas fa-star"></i></span>
+										<span><i class="fas fa-star"></i></span>
+										<span><i class="fas fa-star"></i></span>
+										<span><i class="far fa-star"></i></span>
+									</div>
+									<div class="price py-2">
+										<span>Rp 25.000.000,00</span>
+									</div>
+									<button type="submit" class="btn btn-warning font-size-12">
+										Add to Cart
+									</button>
+								</div>
+							</div>
+						</div>
+						<div class="item py-2">
+							<div class="product font-rale">
+								<a href="#"
+									><img
+										src="images/3.png"
+										alt="product1"
+										class="img-fluid"
+								/></a>
+								<div class="text-center">
+									<h6>Scarf Chanel</h6>
+									<div class="rating text-warning font-size-12">
+										<span><i class="fas fa-star"></i></span>
+										<span><i class="fas fa-star"></i></span>
+										<span><i class="fas fa-star"></i></span>
+										<span><i class="fas fa-star"></i></span>
+										<span><i class="far fa-star"></i></span>
+									</div>
+									<div class="price py-2">
+										<span>Rp 5.000.000,00</span>
+									</div>
+									<button type="submit" class="btn btn-warning font-size-12">
+										Add to Cart
+									</button>
+								</div>
+							</div>
+						</div>
+						<div class="item py-2">
+							<div class="product font-rale">
+								<a href="#"
+									><img
+										src="images/7.png"
+										alt="product1"
+										class="img-fluid"
+								/></a>
+								<div class="text-center">
+									<h6>Chanel jackets</h6>
+									<div class="rating text-warning font-size-12">
+										<span><i class="fas fa-star"></i></span>
+										<span><i class="fas fa-star"></i></span>
+										<span><i class="fas fa-star"></i></span>
+										<span><i class="fas fa-star"></i></span>
+										<span><i class="far fa-star"></i></span>
+									</div>
+									<div class="price py-2">
+										<span>Rp 30.000.000,00</span>
+									</div>
+									<button type="submit" class="btn btn-warning font-size-12">
+										Add to Cart
+									</button>
+								</div>
+							</div>
+						</div>
+						<div class="item py-2">
+							<div class="product font-rale">
+								<a href="#"
+									><img
+										src="images/9.png"
+										alt="product1"
+										class="img-fluid"
+								/></a>
+								<div class="text-center">
+									<h6>Bag Chanel</h6>
+									<div class="rating text-warning font-size-12">
+										<span><i class="fas fa-star"></i></span>
+										<span><i class="fas fa-star"></i></span>
+										<span><i class="fas fa-star"></i></span>
+										<span><i class="fas fa-star"></i></span>
+										<span><i class="far fa-star"></i></span>
+									</div>
+									<div class="price py-2">
+										<span>Rp 35.000.000,00</span>
+									</div>
+									<button type="submit" class="btn btn-warning font-size-12">
+										Add to Cart
+									</button>
+								</div>
+							</div>
+						</div>
+						<div class="item py-2">
+							<div class="product font-rale">
+								<div class="d-flex flex-column">
+									<a href="#"
+										><img
+											src="images/5.png"
+											class="img-fluid"
+											alt="pro1"
+									/></a>
+									<div class="text-center">
+										<h6>Bucket Hat</h6>
+										<div class="rating text-warning font-size-12">
+											<span><i class="fas fa-star"></i></span>
+											<span><i class="fas fa-star"></i></span>
+											<span><i class="fas fa-star"></i></span>
+											<span><i class="fas fa-star"></i></span>
+											<span><i class="far fa-star"></i></span>
+										</div>
+										<div class="price py-2">
+											<span>Rp 750.000,00</span>
+										</div>
+										<button type="submit" class="btn btn-warning font-size-12">
+											Add to Cart
+										</button>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="item py-2">
+							<div class="product font-rale">
+								<div class="d-flex flex-column">
+									<a href="#"
+										><img
+											src="images/4.png"
+											class="img-fluid"
+											alt="pro1"
+									/></a>
+									<div class="text-center">
+										<h6>backpack</h6>
+										<div class="rating text-warning font-size-12">
+											<span><i class="fas fa-star"></i></span>
+											<span><i class="fas fa-star"></i></span>
+											<span><i class="fas fa-star"></i></span>
+											<span><i class="fas fa-star"></i></span>
+											<span><i class="far fa-star"></i></span>
+										</div>
+										<div class="price py-2">
+											<span>Rp 600.000,00</span>
+										</div>
+										<button type="submit" class="btn btn-warning font-size-12">
+											Add to Cart
+										</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- !owl carousel -->
+				</div>
+			</section>
+			<!-- !Top Sale -->
+
+			<!-- Special Price -->
+			<section id="special-price">
+				<div class="container">
+					<div class="d-flex justify-content-between align-items-center">
+						<h4 class="font-rubik font-size-20">Special Price</h4>
+						<div
+							id="filters"
+							class="button-group text-right font-baloo font-size-16"
+						>
+							<button class="btn is-checked" data-filter="*">All Brand</button>
+							<button class="btn" data-filter=".Bag">Bag</button>
+							<button class="btn" data-filter=".Fashion">Fashion</button>
+							<button class="btn" data-filter=".Watch">Watch</button>
+						</div>
+					</div>
+
+					<div class="grid">
+						<div class="grid-item Fashion border">
+							<div class="item py-2" style="width: 200px">
+								<div class="product font-rale">
+									<a href="#">
+										<img
+											src="images/13.png"
+											alt="product13"
+											class="img-fluid"
+										/>
+									</a>
+									<div class="text-center">
+										<h6>P&B Spring</h6>
+										<div class="raiting text-warning font-size-12">
+											<span><i class="fas fa-star"></i></span>
+											<span><i class="fas fa-star"></i></span>
+											<span><i class="fas fa-star"></i></span>
+											<span><i class="fas fa-star"></i></span>
+											<span><i class="far fa-star"></i></span>
+										</div>
+										<div class="price py-2">
+											<span>Rp 300.000,00</span>
+										</div>
+										<button class="btn btn-warning font-size-12" type="submit">
+											Add to Cart
+										</button>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="grid-item Fashion border">
+							<div class="item py-2" style="width: 200px">
+								<div class="product font-rale">
+									<a href="#">
+										<img
+											src="images/11.png"
+											alt="product13"
+											class="img-fluid"
+										/>
+									</a>
+									<div class="text-center">
+										<h6>Blazer H&M</h6>
+										<div class="raiting text-warning font-size-12">
+											<span><i class="fas fa-star"></i></span>
+											<span><i class="fas fa-star"></i></span>
+											<span><i class="fas fa-star"></i></span>
+											<span><i class="fas fa-star"></i></span>
+											<span><i class="far fa-star"></i></span>
+										</div>
+										<div class="price py-2">
+											<span>Rp 499.000,00</span>
+										</div>
+										<button class="btn btn-warning font-size-12" type="submit">
+											Add to Cart
+										</button>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="grid-item Fashion border">
+							<div class="item py-2" style="width: 200px">
+								<div class="product font-rale">
+									<a href="#"
+										><img
+											src="images/16.png"
+											alt="product1"
+											class="img-fluid"
+									/></a>
+									<div class="text-center">
+										<h6>H&M Brown Hat</h6>
+										<div class="rating text-warning font-size-12">
+											<span><i class="fas fa-star"></i></span>
+											<span><i class="fas fa-star"></i></span>
+											<span><i class="fas fa-star"></i></span>
+											<span><i class="fas fa-star"></i></span>
+											<span><i class="far fa-star"></i></span>
+										</div>
+										<div class="price py-2">
+											<span>Rp 299.000,00</span>
+										</div>
+										<button type="submit" class="btn btn-warning font-size-12">
+											Add to Cart
+										</button>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="grid-item Bag border">
+							<div class="item py-2" style="width: 200px">
+								<div class="product font-rale">
+									<a href="#"
+										><img
+											src="images/14.png"
+											alt="product1"
+											class="img-fluid"
+									/></a>
+									<div class="text-center">
+										<h6>H&M Black Sling Bag</h6>
+										<div class="rating text-warning font-size-12">
+											<span><i class="fas fa-star"></i></span>
+											<span><i class="fas fa-star"></i></span>
+											<span><i class="fas fa-star"></i></span>
+											<span><i class="fas fa-star"></i></span>
+											<span><i class="far fa-star"></i></span>
+										</div>
+										<div class="price py-2">
+											<span>Rp 399.000,00</span>
+										</div>
+										<button type="submit" class="btn btn-warning font-size-12">
+											Add to Cart
+										</button>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="grid-item Watch border">
+							<div class="item py-2" style="width: 200px">
+								<div class="product font-rale">
+									<a href="#"
+										><img
+											src="images/12.png"
+											alt="product1"
+											class="img-fluid"
+									/></a>
+									<div class="text-center">
+										<h6>Seiko Watch</h6>
+										<div class="rating text-warning font-size-12">
+											<span><i class="fas fa-star"></i></span>
+											<span><i class="fas fa-star"></i></span>
+											<span><i class="fas fa-star"></i></span>
+											<span><i class="fas fa-star"></i></span>
+											<span><i class="far fa-star"></i></span>
+										</div>
+										<div class="price py-2">
+											<span>Rp 1.250.000,00</span>
+										</div>
+										<button type="submit" class="btn btn-warning font-size-12">
+											Add to Cart
+										</button>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="grid-item Fashion border">
+							<div class="item py-2" style="width: 200px">
+								<div class="product font-rale">
+									<div class="d-flex flex-column">
+										<a href="#"
+											><img
+												src="images/8.png"
+												class="img-fluid"
+												alt="pro1"
+										/></a>
+										<div class="text-center">
+											<h6>Original Hoodie P&B</h6>
+											<div class="rating text-warning font-size-12">
+												<span><i class="fas fa-star"></i></span>
+												<span><i class="fas fa-star"></i></span>
+												<span><i class="fas fa-star"></i></span>
+												<span><i class="fas fa-star"></i></span>
+												<span><i class="far fa-star"></i></span>
+											</div>
+											<div class="price py-2">
+												<span>Rp 250.000,00</span>
+											</div>
+											<button
+												type="submit"
+												class="btn btn-warning font-size-12"
+											>
+												Add to Cart
+											</button>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="grid-item Bag border">
+							<div class="item py-2" style="width: 200px">
+								<div class="product font-rale">
+									<div class="d-flex flex-column">
+										<a href="#"
+											><img
+												src="images/10.png"
+												class="img-fluid"
+												alt="pro1"
+										/></a>
+										<div class="text-center">
+											<h6>H&M Sling Bag</h6>
+											<div class="rating text-warning font-size-12">
+												<span><i class="fas fa-star"></i></span>
+												<span><i class="fas fa-star"></i></span>
+												<span><i class="fas fa-star"></i></span>
+												<span><i class="fas fa-star"></i></span>
+												<span><i class="far fa-star"></i></span>
+											</div>
+											<div class="price py-2">
+												<span>Rp 199.000,00</span>
+											</div>
+											<button
+												type="submit"
+												class="btn btn-warning font-size-12"
+											>
+												Add to Cart
+											</button>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="grid-item Fashion border">
+							<div class="item py-2" style="width: 200px">
+								<div class="product font-rale">
+									<div class="d-flex flex-column">
+										<a href="#"
+											><img
+												src="images/15.png"
+												class="img-fluid"
+												alt="pro1"
+										/></a>
+										<div class="text-center">
+											<h6>P&B Original Shoes</h6>
+											<div class="rating text-warning font-size-12">
+												<span><i class="fas fa-star"></i></span>
+												<span><i class="fas fa-star"></i></span>
+												<span><i class="fas fa-star"></i></span>
+												<span><i class="fas fa-star"></i></span>
+												<span><i class="far fa-star"></i></span>
+											</div>
+											<div class="price py-2">
+												<span>Rp 399.000,00</span>
+											</div>
+											<button
+												type="submit"
+												class="btn btn-warning font-size-12"
+											>
+												Add to Cart
+											</button>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="grid-item Watch border">
+							<div class="item py-2" style="width: 200px">
+								<div class="product font-rale">
+									<div class="d-flex flex-column">
+										<a href="#"
+											><img
+												src="images/17.png"
+												class="img-fluid"
+												alt="pro1"
+										/></a>
+										<div class="text-center">
+											<h6>Casio Cave Watch</h6>
+											<div class="rating text-warning font-size-12">
+												<span><i class="fas fa-star"></i></span>
+												<span><i class="fas fa-star"></i></span>
+												<span><i class="fas fa-star"></i></span>
+												<span><i class="fas fa-star"></i></span>
+												<span><i class="far fa-star"></i></span>
+											</div>
+											<div class="price py-2">
+												<span>Rp 999.000,00</span>
+											</div>
+											<button
+												type="submit"
+												class="btn btn-warning font-size-12"
+											>
+												Add to Cart
+											</button>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="grid-item Bag border">
+							<div class="item py-2" style="width: 200px">
+								<div class="product font-rale">
+									<div class="d-flex flex-column">
+										<a href="#"
+											><img
+												src="images/18.png"
+												class="img-fluid"
+												alt="pro1"
+										/></a>
+										<div class="text-center">
+											<h6>Autmn Winter P&B</h6>
+											<div class="rating text-warning font-size-12">
+												<span><i class="fas fa-star"></i></span>
+												<span><i class="fas fa-star"></i></span>
+												<span><i class="fas fa-star"></i></span>
+												<span><i class="fas fa-star"></i></span>
+												<span><i class="far fa-star"></i></span>
+											</div>
+											<div class="price py-2">
+												<span>Rp 299.000,00	</span>
+											</div>
+											<button
+												type="submit"
+												class="btn btn-warning font-size-12"
+											>
+												Add to Cart
+											</button>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- Special Price -->
+
+			<!-- Banner Ads -->
+			<section class="container py-5 text-center">
+				<img
+					src="images/banner1.png"
+					alt="banner1"
+					class="img-fluid"
+				/>
+				<img
+					src="images/banner2.png"
+					alt="banner2"
+					class="img-fluid"
+				/>
+			</section>
+			<!-- Banner Ads -->
+
+			
+
+			<!-- Blog -->
+			<section id="blogs">
+				<div class="container py-4">
+					<h4 class="font-rubik font-size-20">Latest Blogs</h4>
+					<hr />
+
+					<div class="owl-carousel owl-theme">
+						<div class="item">
+							<div class="card border-0 font-rale mr-5" style="width: 18rem">
+								<h5 class="card-title font-size-16">Upcoming Events</h5>
+								<img
+									src="images/blog1.png"
+									alt="cart image"
+									class="card-img-top"
+								/>
+								<p class="card-text font-size-14 text-black-50 py-1">
+									Events From Home models
+								</p>
+								<a href="#" class="color-second text-left">Go somewhere</a>
+							</div>
+						</div>
+
+						<div class="item">
+							<div class="card border-0 font-rale mr-5" style="width: 18rem">
+								<h5 class="card-title font-size-16">Upcoming Sale</h5>
+								<img
+									src="images/blog2.png"
+									alt="cart image"
+									class="card-img-top"
+								/>
+								<p class="card-text font-size-14 text-black-50 py-1">
+									New big sale from your favorite collection is coming up!
+								</p>
+								<a href="#" class="color-second text-left">Go somewhere</a>
+							</div>
+						</div>
+
+						<div class="item">
+							<div class="card border-0 font-rale mr-5" style="width: 18rem">
+								<h5 class="card-title font-size-16">Upcoming Products</h5>
+								<img
+									src="images/blog3.png"
+									alt="cart image"
+									class="card-img-top"
+								/>
+								<p class="card-text font-size-14 text-black-50 py-1">
+									New Collection from your Favorite products!
+								</p>
+								<a href="#" class="color-second text-left">Go somewhere</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- Blog -->
+		</main>
+
+		<!-- Start #main -->
+
+		<!-- Start #footer -->
+		<footer id="footer" class="bg-dark text-white py-5">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-3 col-12">
+						<h4 class="font-rubik font-size-20">Shopee</h4>
+						<p class="font-size-14 font-rale text-white-50">
+							Happy Shopping for Us!
+						</p>
+					</div>
+					<div class="col-lg-4 col-12">
+						<h4 class="font-rubik font-size-20">Newsletter</h4>
+						<form class="form-row row">
+							<div class="col">
+								<input type="text" class="form-control" placeholder="Email *" />
+							</div>
+							<div class="col">
+								<button type="submit" class="btn btn-primary mb-2">
+									Subscribe
+								</button>
+							</div>
+						</form>
+					</div>
+					<div class="col-lg-2 col-12">
+						<h4 class="font-rubik font-size-20">Information</h4>
+						<div class="d-flex flex-column flex-wrap">
+							<a href="#" class="font-rale font-size-14 text-white-50 pb-1"
+								>About Us</a
+							>
+							<a href="#" class="font-rale font-size-14 text-white-50 pb-1"
+								>Delivery Information</a
+							>
+							<a href="#" class="font-rale font-size-14 text-white-50 pb-1"
+								>Privacy Policy</a
+							>
+							<a href="#" class="font-rale font-size-14 text-white-50 pb-1"
+								>Terms & Conditions</a
+							>
+						</div>
+					</div>
+					<div class="col-lg-2 col-12">
+						<h4 class="font-rubik font-size-20">Account</h4>
+						<div class="d-flex flex-column flex-wrap">
+							<a href="#" class="font-rale font-size-14 text-white-50 pb-1"
+								>My Account</a
+							>
+							<a href="#" class="font-rale font-size-14 text-white-50 pb-1"
+								>Order History</a
+							>
+							<a href="#" class="font-rale font-size-14 text-white-50 pb-1"
+								>Wish List</a
+							>
+							<a href="#" class="font-rale font-size-14 text-white-50 pb-1"
+								>Newsletters</a
+							>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<div class="copyright text-center bg-dark text-white py-2">
+			<p class="font-rale font-size-14">
+				&copy; Shopee @ 2021 - Design By Tanti
+			</p>
+		</div>
+		<!-- !start #footer -->
+
+		<!-- Start #footer -->
+
+		<!-- Bootstrap -->
+		<script
+			src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+			integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+			crossorigin="anonymous"
+		></script>
+		<script
+			src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+			integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+			crossorigin="anonymous"
+		></script>
+		<script
+			src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+			integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+			crossorigin="anonymous"
+		></script>
+
+		<!-- Owl Carousel JS -->
+		<script
+			src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+			integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+			crossorigin="anonymous"
+		></script>
+
+		<!-- Isotope plugin -->
+		<script
+			src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js"
+			integrity="sha512-Zq2BOxyhvnRFXu0+WE6ojpZLOU2jdnqbrM1hmVdGzyeCa1DgM3X5Q4A/Is9xA1IkbUeDd7755dNNI/PzSf2Pew=="
+			crossorigin="anonymous"
+		></script>
+
+		<!-- Custom js -->
+		<script src="index.js"></script>
+	</body>
+</html>
